@@ -1,0 +1,16 @@
+[package]
+name = "file-requirements"
+version = "0.1.0"
+edition = "2021"
+description = "Composable file existence requirements with nested AND/OR logic and duplicate-term protection."
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/your-org/file-requirements"
+readme = "README.md"
+keywords = ["files", "validation", "requirements", "and", "or"]
+categories = ["filesystem", "development-tools"]
+
+[dependencies]
+thiserror = "2"
+
+[dev-dependencies]
+tempfile = "3"
